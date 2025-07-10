@@ -10,7 +10,8 @@
     "jylamont",
     "pernielsentikaer",
     "tm.wrnr",
-    "true-real-michael"
+    "true-real-michael",
+    "xmorse"
   ],
   "categories": [
     "Developer Tools"
@@ -55,8 +56,21 @@
         {
           "value": "Zed Preview",
           "title": "Zed Preview"
+        },
+        {
+          "value": "Zed Dev",
+          "title": "Zed Dev"
         }
       ]
+    },
+    {
+      "name": "showGitBranch",
+      "type": "checkbox",
+      "title": "Git Integration",
+      "required": false,
+      "label": "Show Git Branch",
+      "default": true,
+      "description": "Display the current Git branch for files and folders in Git repositories"
     }
   ],
   "dependencies": {
@@ -78,5 +92,8 @@
     "fix-lint": "ray lint --fix",
     "lint": "ray lint",
     "publish": "ray publish"
-  }
+  },
+  "platforms": [
+    "macOS"
+  ]
 }
